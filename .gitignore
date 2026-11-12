@@ -4,3 +4,29 @@ __pycache__/
 .DS_Store
 .env
 .streamlit/
+
+# Python environments
+venv/
+venv312/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local datasets and personal resumes
+datasets/
+uploads/
+
+# Local backups
+backup_before_kaggle/
+original_backup/
+
+# Experimental files may contain resume text
+experiment_results/
+
+# Other local files
+.streamlit/secrets.toml
+.DS_Store
